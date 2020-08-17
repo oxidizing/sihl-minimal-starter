@@ -1,0 +1,6 @@
+(executable
+  (name app)
+  (libraries
+   sihl
+  )
+)

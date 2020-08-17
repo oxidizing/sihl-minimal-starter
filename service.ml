@@ -1,0 +1,9 @@
+module Random = Sihl.Utils.Random.Service
+module Log = Sihl.Log.Service
+module Config = Sihl.Config.Service
+module Db = Sihl.Data.Db.Service
+module MigrationRepo = Sihl.Data.Migration.Service.Repo.MariaDb
+module Cmd = Sihl.Cmd.Service
+module Migration = Sihl.Data.Migration.Service.Make (Cmd) (Db) (MigrationRepo)
+module WebServer = Sihl.Web.Server.Service.Make (Cmd)
+module Schedule = Sihl.Schedule.Service.Make(Log)
