@@ -10,7 +10,8 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - macos-latest
+         # Needs to have openssl installed
+         # - macos-latest
           - ubuntu-latest
         ocaml-version:
           - 4.11.1
