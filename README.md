@@ -4,6 +4,12 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+
+# Deprecated
+
+This project is deprecated. If you want to start a new project use the [template](https://github.com/oxidizing/sihl/tree/master/template) as described [here](https://oxidizing.github.io/sihl/sihl/index.html#app-generation).
+If you want to browse an example Sihl project, check out [sihl-demo](https://github.com/oxidizing/sihl-demo).
+
 # Minimal Starter Project
 
 This is a simple starter project for the web framework [Sihl](https://github.com/oxidizing/sihl). Simply clone the repo and start building!
